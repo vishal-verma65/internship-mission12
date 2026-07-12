@@ -1,2 +1,38 @@
 2026-07-10 17:31:11 [info]: Server listening on port 5000 [development]
 2026-07-10 17:31:59 [info]: Server listening on port 5000 [development]
+2026-07-12 11:44:03 [info]: Server listening on port 5000 [development]
+2026-07-12 11:46:53 [info]: Client handshake successful | socketId=lQCJPPBXRnQxZYD6AAAD
+2026-07-12 11:46:53 [info]: vishal joined room "General" | socketId=lQCJPPBXRnQxZYD6AAAD
+2026-07-12 11:47:39 [info]: Message in "General" | vishal: Hii anyone there ?
+2026-07-12 11:48:00 [info]: Client handshake successful | socketId=X0NeJC7i-8S1ZhASAAAG
+2026-07-12 11:48:00 [info]: nakul joined room "General" | socketId=X0NeJC7i-8S1ZhASAAAG
+2026-07-12 11:48:08 [info]: nakul disconnected from "General" | reason=transport close
+2026-07-12 11:48:11 [info]: Client handshake successful | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:48:11 [info]: nakul joined room "General" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:48:16 [info]: Message in "General" | nakul: hlo
+2026-07-12 11:48:32 [info]: Message in "General" | vishal: i need help
+2026-07-12 11:48:38 [info]: Message in "General" | nakul: what kind of
+2026-07-12 11:49:00 [info]: Message in "General" | vishal: i found a bug and got looped inside it and cannot get out
+2026-07-12 11:49:03 [info]: Message in "General" | nakul: ooh
+2026-07-12 11:49:06 [info]: vishal joined room "Tech Support" | socketId=lQCJPPBXRnQxZYD6AAAD
+2026-07-12 11:49:07 [info]: vishal joined room "General" | socketId=lQCJPPBXRnQxZYD6AAAD
+2026-07-12 11:49:11 [info]: vishal joined room "Tech Support" | socketId=lQCJPPBXRnQxZYD6AAAD
+2026-07-12 11:49:20 [info]: Message in "Tech Support" | vishal: hii tech
+2026-07-12 11:49:23 [info]: nakul joined room "Tech Support" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:49:25 [info]: nakul joined room "General" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:49:27 [info]: nakul joined room "Tech Support" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:49:32 [info]: Message in "Tech Support" | nakul: hlo
+2026-07-12 11:49:40 [info]: Message in "Tech Support" | vishal: hii
+2026-07-12 11:49:42 [info]: nakul joined room "General" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:49:45 [info]: Message in "Tech Support" | vishal: hlo
+2026-07-12 11:49:47 [info]: nakul joined room "Tech Support" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:49:59 [info]: nakul joined room "General" | socketId=8kZG58JCM-RKQ5oPAAAJ
+2026-07-12 11:54:01 [info]: vishal disconnected from "Tech Support" | reason=client namespace disconnect
+2026-07-12 11:54:01 [info]: nakul disconnected from "General" | reason=client namespace disconnect
+2026-07-12 11:55:32 [info]: Server listening on port 5000 [development]
+2026-07-12 11:55:38 [info]: Server listening on port 5000 [development]
+2026-07-12 11:55:50 [info]: Server listening on port 5000 [development]
+2026-07-12 11:55:56 [info]: Server listening on port 5000 [development]
+2026-07-12 11:56:25 [info]: Server listening on port 5000 [development]
+2026-07-12 11:56:33 [info]: Server listening on port 5000 [development]
+2026-07-12 11:56:40 [info]: Server listening on port 5000 [development]
