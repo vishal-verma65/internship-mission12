@@ -1,14 +1,25 @@
 import { useState } from "react";
 
-export default function MessageInput({ onSend }) {
+export default function MessageInput({ onSend, onTyping, onStopTyping }) {
   const [text, setText] = useState("");
+
+  const handleChange = (e) => {
+    const value = e.target.value;
+    setText(value);
+    if (value.trim()) {
+      onTyping();
+    } else {
+      onStopTyping();
+    }
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const trimmed = text.trim();
     if (!trimmed) return;
 
-    onSend({ text: trimmed, timestamp: Date.now() });
+    onSend(trimmed);
+    onStopTyping();
     setText("");
   };
 
@@ -20,7 +31,7 @@ export default function MessageInput({ onSend }) {
       <input
         type="text"
         value={text}
-        onChange={(e) => setText(e.target.value)}
+        onChange={handleChange}
         placeholder="Type a message..."
         className="flex-1 rounded-md border border-slate-800 bg-slate-900 px-3 py-2 text-sm text-slate-100 outline-none placeholder:text-slate-600 focus:border-emerald-500"
       />
