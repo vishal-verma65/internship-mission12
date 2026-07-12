@@ -4,6 +4,8 @@ A bidirectional, room-based chat application built to demonstrate WebSocket
 communication with Socket.io: live message broadcast, session identity,
 typing indicators, and isolated channel routing.
 
+###  live url :   https://internship-mission12.vercel.app/
+
 ## Stack
 
 | Layer          | Tech                                  |
